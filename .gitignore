@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BatchExtractGpsCoordinates/obj
+/BatchExtractGpsCoordinatesLib/obj
+/.vs/BatchExtractGpsCoordinates
+/BatchExtractGpsCoordinates/bin/Debug/net9.0/win-x64
+/BatchExtractGpsCoordinatesLib/bin/Debug/net9.0
+/BatchExtractGpsCoordinates/Properties
