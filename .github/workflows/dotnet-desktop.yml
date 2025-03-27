@@ -40,7 +40,7 @@ name: Build and Release .NET App
 
 on:
   release:
-    types: [created]  # Wird ausgeführt, wenn du einen Release erstellst
+    types: [created] 
 
 jobs:
   build:
@@ -58,7 +58,7 @@ jobs:
       run: dotnet restore
 
     - name: Build project
-      run: dotnet publish -c Release -r win-x64 --self-contained false -o output
+      run: dotnet publish BatchExtractGpsCoordinates/BatchExtractGpsCoordinates/BatchExtractGpsCoordinates.csproj -c Release -r win-x64 --self-contained false -o output
 
     - name: Upload Release Asset
       uses: softprops/action-gh-release@v1
